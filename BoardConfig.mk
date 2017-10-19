@@ -24,16 +24,16 @@
 include device/samsung/zero-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zerofltexx,zeroflte
+TARGET_OTA_ASSERT_DEVICE := nobleltetmo,noblelte
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltexx/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltetmo/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_zerofltexx_defconfig
+TARGET_KERNEL_CONFIG := werewolf_defconfig
 
 # Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4561305600
 
 # Radio
 BOARD_MODEM_TYPE := ss333
