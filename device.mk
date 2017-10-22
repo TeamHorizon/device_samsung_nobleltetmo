@@ -23,6 +23,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.baseband.rc
+
 # Inherit from zero-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
 $(call inherit-product, vendor/samsung/noblelte-common/noblelte-common-vendor.mk)
