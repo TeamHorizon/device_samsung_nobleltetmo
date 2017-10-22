@@ -25,6 +25,3 @@ PRODUCT_DEVICE := nobleltetmo
 PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-N920T
-
-# Include overriding makefile from common device tree
-include device/samsung/noblelte-common/noblelte-common-override.mk
