@@ -8,8 +8,8 @@ TARGET_SCREEN_WIDTH := 1440
 $(call inherit-product, vendor/invictus/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Galaxy Note 5" \
-    TARGET_DEVICE="Galaxy Note 5"
+    PRODUCT_NAME="nobleltetmo" \
+    TARGET_DEVICE="nobleltetmo"
 
 PRODUCT_NAME := inv_nobleltetmo
 PRODUCT_DEVICE := nobleltetmo
