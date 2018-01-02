@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo inv_nobleltetmo-userdebug
+add_lunch_combo xenonhd_nobleltetmo-userdebug

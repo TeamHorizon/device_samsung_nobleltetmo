@@ -30,10 +30,13 @@ TARGET_OTA_ASSERT_DEVICE := nobleltetmo,noblelte
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltetmo/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := werewolf_defconfig
+TARGET_KERNEL_CONFIG := cm_nobleltetmo_defconfig 
+BOARD_KERNEL_IMAGE_NAME := Image
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4561305600
 
 # Radio
 BOARD_MODEM_TYPE := ss333
+
+ALLOW_MISSING_DEPENDENCIES=true
