@@ -11,6 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
+# Root options
+ROOT_METHOD=magisk
+
+# 3rd party apps - choose which you want to build
+PRODUCT_PACKAGES += \
+    Adaway \
+    KernelAdiutor \
+    MiXplorer
+
+# Camera
+PRODUCT_PACKAGES += \
+  Camera2 \
+  Snap
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := xenonhd_nobleltetmo
 PRODUCT_DEVICE := nobleltetmo
