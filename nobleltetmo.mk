@@ -4,6 +4,8 @@ LOCAL_PATH := device/samsung/nobleltetmo
 PRODUCT_PACKAGES += \
     init.baseband.rc
 
+PRODUCT_PACKAGES += \
+    Magisk
 # Radio
 # cpboot-daemon for modem
 PRODUCT_COPY_FILES += \
